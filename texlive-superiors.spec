@@ -1,11 +1,11 @@
-# revision 27419
+# revision 29169
 # category Package
 # catalog-ctan /fonts/superiors
-# catalog-date 2012-08-14 12:35:31 +0200
+# catalog-date 2013-02-18 23:06:04 +0100
 # catalog-license lppl
-# catalog-version 1.00
+# catalog-version 1.02
 Name:		texlive-superiors
-Version:	1.00
+Version:	1.02
 Release:	1
 Summary:	Attach superior figures to a font family
 Group:		Publishing
@@ -35,9 +35,10 @@ Libertine.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/enc/public/superiors/sups.enc
-%{_texmfdistdir}/fonts/map/dvips/public/superiors/superiors.map
+%{_texmfdistdir}/fonts/enc/dvips/superiors/sups.enc
+%{_texmfdistdir}/fonts/map/dvips/superiors/superiors.map
 %{_texmfdistdir}/fonts/tfm/public/superiors/libertinesups.tfm
+%{_texmfdistdir}/fonts/type1/public/superiors/libertinesups.pfb
 %{_texmfdistdir}/tex/latex/public/superiors/superiors.sty
 %doc %{_texmfdistdir}/doc/fonts/superiors/README
 %doc %{_texmfdistdir}/doc/fonts/superiors/libfoot0-crop.pdf
