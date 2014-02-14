@@ -1,12 +1,12 @@
-# revision 31943
+# revision 32716
 # category Package
 # catalog-ctan /fonts/superiors
-# catalog-date 2013-10-18 19:33:52 +0200
+# catalog-date 2014-01-18 21:37:51 +0100
 # catalog-license lppl
-# catalog-version 1.03
+# catalog-version 1.04
 Name:		texlive-superiors
-Version:	1.03
-Release:	5
+Version:	1.04
+Release:	1
 Summary:	Attach superior figures to a font family
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/superiors
