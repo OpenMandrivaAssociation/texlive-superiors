@@ -6,7 +6,7 @@
 # catalog-version 1.04
 Name:		texlive-superiors
 Version:	1.05
-Release:	1
+Release:	2
 Summary:	Attach superior figures to a font family
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/superiors
