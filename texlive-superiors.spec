@@ -1,18 +1,12 @@
-# revision 32716
-# category Package
-# catalog-ctan /fonts/superiors
-# catalog-date 2014-01-18 21:37:51 +0100
-# catalog-license lppl
-# catalog-version 1.04
 Name:		texlive-superiors
-Version:	1.05
-Release:	2
+Version:	51909
+Release:	1
 Summary:	Attach superior figures to a font family
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/superiors
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/superiors.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/superiors.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/superiors.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/superiors.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -26,12 +20,12 @@ fonts are provided--one matching Times, the other matching
 Libertine.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -50,7 +44,7 @@ Libertine.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
