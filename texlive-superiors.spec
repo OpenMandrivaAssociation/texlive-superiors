@@ -3,7 +3,7 @@ Version:	51909
 Release:	2
 Summary:	Attach superior figures to a font family
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/superiors
+URL:		https://www.ctan.org/tex-archive/fonts/superiors
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/superiors.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/superiors.doc.r%{version}.tar.xz
